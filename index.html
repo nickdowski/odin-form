@@ -10,14 +10,46 @@
     <div class="container">
         <div class="left-panel">
             <div class="overlay">
-                <div class="logo-container">
-                    <div class="logo">OKEY</div>
-                    <img src="odin-lined.png" alt="odin logo" class="odin-logo">
-                </div>
+              <div class="logo-container">
+                <div class="logo">OKEY</div>
+                <img src="odin-lined.png" alt="odin logo" class="odin-logo">
+              </div>
             </div>
-        </div>
+            <div class="image-caption">
+              Photo by Hailey West on Unsplash
+            </div>
+          </div>
         
-        <div class="right-panel"></div>
+        <div class="right-panel">
+            <div class="promo-text">
+                <p><strong>This is not a real online service!</strong>You know you need something like this in your life to help you realize your deepest dreams. <strong>Sign up now to get started!</strong></p>
+                <p><strong>You <em>know</em> you want to.</strong></p>
+            </div>
+            <form class="form-container" action="#" method="POST">
+                <h3>Let's do this!</h3>
+                <div class="form-group">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <label for="phonenumber">PHONE NUMBER</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <label for="confirmpassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" required>
+                </div>
+                <div class="form-footer">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
     </div>
     
 </body>
