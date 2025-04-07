@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+  @font-face {
+    font-family: 'Norse Bold';
+    src: url('Norse-Bold.otf') format('opentype');
+  }
 
 .container {
   display: flex;
@@ -28,12 +32,32 @@
   transform: translateY(-50%);
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding-left: 20px;
+  gap: 0;
 }
 
+  .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
+.logo {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Norse Bold', Arial, sans-serif;
+  width: 100%;
+}
 
+.odin-logo {
+  width: 100px;
+  height: 100px;
+
+}
 
 .right-panel {
   width: 60%;
