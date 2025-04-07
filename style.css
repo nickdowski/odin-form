@@ -1,3 +1,24 @@
 * {
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+  display: flex;
+}
+
+  .left-panel {
+  background-image: url(ness.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100vh;
+}
+
+.right-panel {
+  width: 60%;
+  height: 100vh;
+  background-color: white;
 }
